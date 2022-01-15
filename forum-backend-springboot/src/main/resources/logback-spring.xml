@@ -19,7 +19,6 @@
         </appender>
     -->
 
-    <logger name="kr.ktkim.app" level="#logback.loglevel#"/>
     <logger name="ch.qos.logback" level="WARN"/>
     <logger name="io.undertow" level="WARN"/>
     <logger name="io.undertow.websockets.jsr" level="ERROR"/>
