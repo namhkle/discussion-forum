@@ -15,8 +15,8 @@ const PostPreview = ({ post }) => {
     return null;
   }
   let postBody = post.get("body");
-  if (postBody.length > 300) {
-    postBody = postBody.substring(0, 300) + '...';
+  if (postBody.length > 350) {
+    postBody = postBody.substring(0, 350) + '...';
   }
 
   return (

@@ -17,7 +17,7 @@ const PostList = ({ isAuthenticated, posts }) => {
 
     let postBody = post.get("body");
     let isReadMore = false;
-    if (postBody.length > 200) {
+    if (postBody.length > 250) {
       isReadMore = true;
     }
 
@@ -31,7 +31,7 @@ const PostList = ({ isAuthenticated, posts }) => {
               size='sm'
               tag={Link}
               to={"/posts/" + post.get("id")}>
-              Read More >>
+              Read More
             </Button>}
         </div>
         <hr />
