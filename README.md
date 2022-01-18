@@ -11,7 +11,8 @@ Homepage with the list of posts
 ==================================================================
 
 Postpage with the post and its commentbox.
-![commentbox](https://user-images.githubusercontent.com/54610672/149873724-ad6e4351-7526-4bde-872a-ce234527f0ee.jpg)
+![commentbox1](https://user-images.githubusercontent.com/54610672/149878697-27987039-c8bd-4184-9a7b-516114bb911a.jpg)
+
 
 
 
