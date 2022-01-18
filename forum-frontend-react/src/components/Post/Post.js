@@ -7,7 +7,6 @@ import { Button } from 'reactstrap';
 import CommentList from '../CommentList/CommentList';
 import styles from './Post.scss';
 
-
 const cx = classNames.bind(styles);
 
 const Post = ({ post, comments, deletePost, isAuthenticated, currentUser, writeComment }) => {

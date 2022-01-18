@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-
 import styles from './PostPreview.scss';
 import classNames from 'classnames/bind';
 import moment from 'moment';
