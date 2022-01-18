@@ -46,10 +46,10 @@ class EditorContainer extends Component {
     if (loading)
       return null;
     return (
-      <Fragment>        
+      <>        
         {error && <h1>Server Error!</h1>}
         {<TextEditor post={id ? post : ''} writePost={this.writePost} />}        
-      </Fragment>
+      </>
     );
   }
 }

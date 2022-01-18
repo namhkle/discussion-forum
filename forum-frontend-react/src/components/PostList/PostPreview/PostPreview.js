@@ -20,7 +20,7 @@ const PostPreview = ({ post }) => {
   }
 
   return (
-    <Fragment>
+    <>
       <div className={cx("post-header")}>
         <h2 className={cx("post-title")}>
           <Link to={"/posts/" + post.get("id")}>{post.get("title")}</Link>
@@ -33,7 +33,7 @@ const PostPreview = ({ post }) => {
         <hr />
       </div>
       <div className={cx('post-body')}>{renderHTML(postBody)}</div>
-    </Fragment>
+    </>
   )
 };
 

@@ -43,7 +43,7 @@ class CommentBox extends Component {
 
   render() {
     return (
-      <React.Fragment>
+      <>
         <div className="media mb-3">
           <img
             className="mr-3 bg-light rounded"
@@ -71,7 +71,7 @@ class CommentBox extends Component {
             </div>
           </div>
         </div>
-      </React.Fragment>
+      </>
     );
   }
 }

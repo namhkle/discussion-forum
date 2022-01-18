@@ -16,7 +16,7 @@ const Post = ({ post, comments, deletePost, isAuthenticated, currentUser, writeC
   }
 
   return (
-    <Fragment>
+    <>
       <div className={cx("post-wrapper")}>
         <div className={cx("post-header")}>
           <h2 className={cx("post-title")}>
@@ -47,7 +47,7 @@ const Post = ({ post, comments, deletePost, isAuthenticated, currentUser, writeC
         writeComment={writeComment}
         postId={post.get("id")}>
       </CommentList>
-    </Fragment>
+    </>
   )
 };
 

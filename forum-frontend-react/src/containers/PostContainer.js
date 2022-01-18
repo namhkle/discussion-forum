@@ -56,7 +56,7 @@ class PostContainer extends Component {
       return null;
 
       return (
-      <Fragment>        
+      <>        
         {error && <h1>Server Error!</h1>}
         {!error && success &&
           <Post post={post}
@@ -65,7 +65,7 @@ class PostContainer extends Component {
             isAuthenticated={isAuthenticated}
             currentUser={currentUser}
             writeComment={this.writeComment} />}
-      </Fragment>
+      </>
     );
   }
 }

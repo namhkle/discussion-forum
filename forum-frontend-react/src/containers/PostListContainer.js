@@ -21,11 +21,11 @@ class PostContainer extends Component {
   render() {
     const { posts, loading, error, success, isAuthenticated } = this.props;
     return (
-      <Fragment>
+      <>
         { loading && "Loading..." }
         { error && <h1>Server Error!</h1> }
         { success && <PostList posts={posts} isAuthenticated={isAuthenticated} /> }
-      </Fragment>
+      </>
     );
   }
 }
