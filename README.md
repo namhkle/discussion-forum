@@ -13,6 +13,10 @@ Homepage with the list of posts
 Postpage with the post and its commentbox.
 ![commentbox1](https://user-images.githubusercontent.com/54610672/149878697-27987039-c8bd-4184-9a7b-516114bb911a.jpg)
 
+==================================================================
+
+Authenticate users for editing/posting 
+![commentbox2](https://user-images.githubusercontent.com/54610672/149878992-585e55a3-925a-48f0-b0d2-f5cb3db11a80.jpg)
 
 
 
