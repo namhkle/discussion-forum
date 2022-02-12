@@ -10,7 +10,7 @@ Homepage with the list of posts
 
 ==================================================================
 
-Postpage with the post and its commentbox.
+Postpage with the post and its own commentbox.
 ![commentbox1](https://user-images.githubusercontent.com/54610672/149878697-27987039-c8bd-4184-9a7b-516114bb911a.jpg)
 
 ==================================================================
